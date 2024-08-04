@@ -1,5 +1,4 @@
 from manim import *
-import numpy as mp
 
 
 class DemoScene(Scene):
@@ -11,3 +10,4 @@ class DemoScene(Scene):
         self.wait()
         self.play(ReplacementTransform(c, s))
         self.wait()
+
