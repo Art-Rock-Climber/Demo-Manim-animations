@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:E:/проекты пу чарма/pythonProject1/media/videos/demo_animations/1080p60/partial_movie_files/DemoScene/3977891868_3490044586_223132457.mp4'
+file 'file:E:/проекты пу чарма/pythonProject1/media/videos/demo_animations/1080p60/partial_movie_files/DemoScene/2852726489_1733944848_3216435947.mp4'
+file 'file:E:/проекты пу чарма/pythonProject1/media/videos/demo_animations/1080p60/partial_movie_files/DemoScene/2852726489_2241356287_2386088943.mp4'
+file 'file:E:/проекты пу чарма/pythonProject1/media/videos/demo_animations/1080p60/partial_movie_files/DemoScene/2852726489_1733944848_3930769626.mp4'

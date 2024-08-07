@@ -1,13 +1,15 @@
 from manim import *
 
-
-class DemoScene(Scene):
+        
+class PoligonScene(Scene):  # Построение окружности как многоугольника
     def construct(self):
-        c = Circle()
-        s = Square()
-
-        self.play(Write(c))
-        self.wait()
-        self.play(ReplacementTransform(c, s))
+        poligon = RegularPolygon(n = 3) 
+        
+        self.play(Write(poligon))
         self.wait()
 
+        for i in range(4, 20):
+            new_poligon = RegularPolygon(n = i)
+            self.play(ReplacementTransform(poligon, new_poligon))
+            poligon = new_poligon
+        self.wait()
