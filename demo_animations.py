@@ -13,3 +13,4 @@ class PoligonScene(Scene):  # Построение окружности как �
             self.play(ReplacementTransform(poligon, new_poligon))
             poligon = new_poligon
         self.wait()
+
